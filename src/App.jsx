@@ -206,7 +206,7 @@ function App() {
           </motion.a>
         </section>
 
-        <section id="about" className="px-5 py-28">
+        <section id="about" className="px-5 py-15">
           <div className="mx-auto max-w-6xl">
             <SectionHeading
               eyebrow="01 — About"
@@ -236,7 +236,7 @@ function App() {
           </div>
         </section>
 
-        <section id="skills" className="px-5 py-28">
+        <section id="skills" className="px-5 py-15">
           <div className="mx-auto max-w-6xl">
             <SectionHeading eyebrow="02 — Skills" title="My technical toolkit." description="A practical stack built around Laravel backend development, APIs, databases, cloud infrastructure and modern frontend development." />
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
@@ -247,7 +247,7 @@ function App() {
           </div>
         </section>
 
-        <section id="experience" className="px-5 py-28">
+        <section id="experience" className="px-5 py-15">
           <div className="mx-auto max-w-6xl">
             <SectionHeading eyebrow="03 — Experience" title="Where I've been building." />
             <div className="relative ml-2 border-l border-white/10 pl-8 sm:ml-6 sm:pl-12">
@@ -278,7 +278,7 @@ function App() {
           </div>
         </section>
 
-        <section id="projects" className="px-5 py-28">
+        <section id="projects" className="px-5 py-15">
           <div className="mx-auto max-w-6xl">
             <SectionHeading eyebrow="04 — Projects" title="Things I've built." description="Selected projects showing my experience across Laravel, APIs, React, payments, cloud services and performance." />
             <div className="grid gap-6 md:grid-cols-2">
@@ -287,7 +287,7 @@ function App() {
           </div>
         </section>
 
-        <section id="contact" className="px-5 py-28">
+        <section id="contact" className="px-5 py-15">
           <motion.div
             initial={{ opacity: 0, scale: .97 }}
             whileInView={{ opacity: 1, scale: 1 }}
