@@ -1,5 +1,9 @@
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { useRef, useState } from "react";
+import caravanImg from '../src/images/caravan.png';
+import cloudRacintImg from '../src/images/cloudRacing.png';
+import expenseTrackerImg from '../src/images/expenseTracker.png';
+import movieExplorerImg from '../src/images/movieExplorer.png';
 import {
   ArrowDown,
   ArrowRight,
@@ -43,7 +47,7 @@ const projects = [
     description:
       "A production-style caravan Listing platform with Admin and Dealer panels, RESTful APIs, image optimization, S3 storage, Redis caching and soft deletes.",
     stack: ["Laravel", "Next.js", "MySQL", "Redis", "AWS S3", "REST API"],
-    image: "/public/images/caravan.png",
+    image: caravanImg,
     demo: "https://letsgoleisure.com/home",
     github: "#contact",
   },
@@ -53,7 +57,7 @@ const projects = [
     description:
       "Laravel-powered platform with multilingual support, subscription modules and Stripe payment integration for a connected web and mobile experience.",
     stack: ["Laravel", "WebSocket", "Stripe", "MySQL", "REST API"],
-    image: "/public/images/cloudRacing.png",
+    image: cloudRacintImg,
     demo: "https://cloudracing.svaapta.com/en/login",
     github: "#contact",
   },
@@ -63,7 +67,7 @@ const projects = [
     description:
       "Responsive expense management application built with React, focused on clean component architecture, state handling and a simple user experience.",
     stack: ["React", "JavaScript", "CSS", "Vercel"],
-    image: "/public/images/expenseTracker.png",
+    image: expenseTrackerImg,
     demo: "https://expense-trackerjd.vercel.app/",
     github: "https://github.com/jaydeepkumar-solanki/expense-tracker",
   },
@@ -73,7 +77,7 @@ const projects = [
     description:
       "A movie discovery interface built with React featuring API-driven content, responsive layouts and reusable UI components.",
     stack: ["React", "REST API", "JavaScript", "Vercel"],
-    image: "/public/images/movieExplorer.png",
+    image: movieExplorerImg,
     demo: "https://movie-explorerjd.vercel.app/",
     github: "https://github.com/jaydeepkumar-solanki/movie-explorer.jd",
   },
