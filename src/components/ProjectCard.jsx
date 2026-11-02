@@ -12,7 +12,9 @@ export default function ProjectCard({ project, index }) {
       className="group overflow-hidden rounded-3xl border border-white/8 bg-white/[.025]"
     >
       <div className="relative h-52 overflow-hidden bg-gradient-to-br from-emerald-500/15 via-blue-500/10 to-purple-500/15">
-        <div className="grid-bg absolute inset-0 opacity-60" />
+        <div>
+          <img src={project.image} />
+        </div>
         <motion.div
           className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-emerald-400/10 blur-3xl"
           animate={{ scale: [1, 1.25, 1], opacity: [.4, .8, .4] }}
