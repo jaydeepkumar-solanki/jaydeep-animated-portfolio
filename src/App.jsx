@@ -4,6 +4,9 @@ import caravanImg from '../src/images/caravan.png';
 import cloudRacintImg from '../src/images/cloudRacing.png';
 import expenseTrackerImg from '../src/images/expenseTracker.png';
 import movieExplorerImg from '../src/images/movieExplorer.png';
+import mochaIMG from '../src/images/mochaIMG.png';
+import fathershopIMG from '../src/images/fathershopIMG.png';
+
 import {
   ArrowDown,
   ArrowRight,
@@ -41,6 +44,16 @@ const skills = [
 ];
 
 const projects = [
+  {
+    title: "Mocha Cafe Ordering System",
+    category: "MERN",
+    description:
+      "Full-stack MERN cafe ordering application with QR-based ordering, menu management and MongoDB integration.",
+    stack: ["React Js", "Node Js", "MongoDB","Express Js"],
+    image: mochaIMG,
+    demo: "https://mocha-cafe-ordering-system.vercel.app/",
+    github: "https://github.com/jaydeepkumar-solanki/mocha-cafe-ordering-system",
+  },
   {
     title: "Caravan Platform",
     category: "Laravel Backend + Next.js",
@@ -80,6 +93,16 @@ const projects = [
     image: movieExplorerImg,
     demo: "https://movie-explorerjd.vercel.app/",
     github: "https://github.com/jaydeepkumar-solanki/movie-explorer.jd",
+  },
+  {
+    title: "FatherShops – E-Commerce Platform",
+    category: "Full Stack Application",
+    description:
+      "A full-stack e-commerce product catalog application built using Next.js and Laravel. The platform retrieves product and category information from the external FatherShops data source through Laravel REST APIs and displays it through a responsive frontend.",
+    stack: ["Next Js","React Js", "Laravel", "REST API","Caching"],
+    image: fathershopIMG,
+    demo: "https://fathershops-frontend.vercel.app/",
+    github: "https://github.com/jaydeepkumar-solanki/fathershops-frontend",
   },
 ];
 
